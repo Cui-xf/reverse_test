@@ -18,6 +18,9 @@ function log(tag, msg) {
     console.log("[" + tag + "] " + msg);
 }
 
+// 与 adb 对照：adb shell "grep password_checker /proc/<PID>/maps"
+log("PROC", "PID: " + Process.id + " | adb: adb shell \"grep -i password_checker /proc/" + Process.id + "/maps\"");
+
 // ── Hook 1: Java 层 NativeAuth.aaa() ─────────────────────────────────────────
 
 Java.perform(function () {
