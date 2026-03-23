@@ -1,0 +1,36 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "app-debug.apk"
+  ],
+  "treeExpansionsV2": [
+    "t:JSources"
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.cc.qbq.NativeAuth",
+      "subPath": "smali",
+      "caret": 1359,
+      "view": {
+        "x": 0,
+        "y": 2
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    }
+  ],
+  "cacheDir": "/Users/cxf/Library/Caches/io.github.skylot.jadx/projects/app-debug-47533c6ca55eb65b5cfb1c0faec8f24e",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "searchResourcesFilter": "$TEXT",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}
